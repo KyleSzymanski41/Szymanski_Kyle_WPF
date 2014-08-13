@@ -31,4 +31,6 @@ console.log(dogYears);
 
 console.log(" Sparky is " + humanYears + " human years old which is " + dogYears + " in dog years ");
 
+alert(" Sparky is " + humanYears + " human years old which is " + dogYears + " in dog years ");
+
 
