@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="450b5639-6bde-429e-8f10-f723a205f45d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Expressions_worksheet/js/Slice of Pie part 1.js" afterPath="$PROJECT_DIR$/Expressions_worksheet/js/Slice of Pie part 1.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Szymanski_Kyle_WPF.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,8 +28,8 @@
       <file leaf-file-name="Slice of Pie part 1.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Expressions_worksheet/js/Slice of Pie part 1.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6926407" vertical-offset="0" max-vertical-offset="693">
-              <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.73593074" vertical-offset="0" max-vertical-offset="693">
+              <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -288,8 +287,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Expressions_worksheet/js/Slice of Pie part 1.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6926407" vertical-offset="0" max-vertical-offset="693">
-          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.73593074" vertical-offset="0" max-vertical-offset="693">
+          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>

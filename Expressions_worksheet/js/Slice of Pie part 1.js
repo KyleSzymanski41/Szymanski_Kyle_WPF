@@ -29,6 +29,7 @@ var xSlices = totalpizzaSlices / peopleatParty;
 
 console.log(totalpizzaSlices / peopleatParty);
 
+// The answer would be how many slices each student could have.
 
 console.log(" Each person ate " + xSlices + " amount of slices. " );
 
