@@ -62,7 +62,7 @@ var lTimes = [lap1 , lap2 , lap3 , lap4 , lap5]; //0,1,2,3
 
 console.log(lTimes);
 
-// add laps together
+// Add laps together
 
 var totalTime = parseInt(lTimes[0]) + parseInt(lTimes[1]) + parseInt(lTimes[2]) + parseInt(lTimes[3]) + parseInt(lTimes[4]);
 
@@ -74,7 +74,7 @@ console.log(totalTime);
 
 var average = totalTime / 5;
 
-// Console.log out answer.
+// console.log out answer.
 
 console.log(average);
 
@@ -103,7 +103,7 @@ var secondsperHour = secondsperMin * minuperHour;
 
 console.log(secondsperHour);
 
-// divide average by seconds per hour.
+// Divide average by seconds per hour.
 
 var time = average / secondsperHour;
 
@@ -119,15 +119,15 @@ var trackLength = prompt("How long was the track in miles?")
 
 console.log(trackLength);
 
-// divide track length by time to get miles per hour.
+// Divide track length by time to get miles per hour.
 
 var mph = parseInt(trackLength) / time;
 
-//console.log out answer.
+// console.log out answer.
 
 console.log(mph);
 
 // Inform user on average lap and speed on average lap.
 
-console.log(" Your average lap time in seconds is " + average + " and your speed during that time was " + mph + "mph");
+console.log(" Your average lap time in seconds is " + average + " and your speed during that time was " + mph + "mph.");
 
