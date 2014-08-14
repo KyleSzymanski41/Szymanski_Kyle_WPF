@@ -18,3 +18,22 @@ var length = prompt("What is the length of the platform in feet?");
 // console.log out response.
 
 console.log(length);
+
+// Ask the user for the width of the platform in feet.
+
+var width = prompt("What is the width of the platform in feet?");
+
+// console.log out response.
+
+console.log(width);
+
+// Ask the user for the height of his platform in feet.
+
+var height = prompt("What is the height of the platform in feet?");
+
+// console.log out response.
+
+console.log(height);
+
+// Find the volume of the platform.
+
