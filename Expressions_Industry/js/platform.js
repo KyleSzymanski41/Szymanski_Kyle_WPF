@@ -42,3 +42,11 @@ var volume = parseInt(length) * parseInt(width) * parseInt(height);
 // console.log out information.
 
 console.log(volume);
+
+// Find out the surface area of the platform.
+
+var lengthWidth = 2 * (parseInt(length) * parseInt(width));
+
+//console.log out information
+
+console.log(lengthWidth);
