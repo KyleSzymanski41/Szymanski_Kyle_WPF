@@ -5,7 +5,7 @@
  WPF - WDD 144 Section 02
  */
 
-// You and some friends return cans to a recycling center for extra money. How much money will each person receive?
+// The user and some friends return cans to a recycling center for extra money. How much money will each person receive?
 
 // Givens
 // Ask user how many friends helped return cans.
@@ -39,3 +39,7 @@ var price = prompt("How much does the fee cost to return cans?");
 //Console log out response.
 
 console.log(price);
+
+// Let the user know what we are doing.
+
+alert("Lets see how much you each received for returning cans.")
