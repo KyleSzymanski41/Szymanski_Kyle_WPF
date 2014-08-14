@@ -48,12 +48,21 @@ alert("Lets see how much you each received for returning cans.");
 
 var value = cans * worth;
 
-// console.log out response
+// console.log out information.
 
 console.log(value);
 
 //Now subtract the value of the cans from the price to return them.
 
-var totalValue = value - price;
+var totalValue = value - parseInt(price);
 
-//
+// console.log out information.
+
+console.log(totalValue);
+
+// Now that we have discovered what the total value is, we need to figure how how much each person gets.
+// Divide total value by people.
+
+var moneySplit = totalValue / people;
+
+console.log()
