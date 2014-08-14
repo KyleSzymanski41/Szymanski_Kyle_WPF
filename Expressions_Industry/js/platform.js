@@ -1,3 +1,6 @@
-/**
- * Created by kyleszymanski on 8/14/14.
+/*
+ kyleszymanski
+ WPF-WDD 144 Section 2
+ Expressions
+ 8-14-13
  */
