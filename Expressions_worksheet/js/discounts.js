@@ -50,6 +50,12 @@ console.log(taxPrice);
 
 // To figure out what the price is with taxes we have to add the tax price to the discount price.
 
-var withTaxes
+var withTaxes = disPrice + taxPrice;
+
+console.log(withTaxes);
+
+// Print out discounted price with and without taxes.
+
+console.log(" Your " + item + " were originally " +  originalPrice  + " dollars but after a " + dis + "% discount, it is now " + disPrice + " dollars without taxes and " + withTaxes + " dollars with taxes.")
 
 

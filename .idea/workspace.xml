@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="450b5639-6bde-429e-8f10-f723a205f45d" name="Default" comment="" />
+    <list default="true" id="450b5639-6bde-429e-8f10-f723a205f45d" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Expressions_worksheet/js/discounts.js" afterPath="$PROJECT_DIR$/Expressions_worksheet/js/discounts.js" />
+    </list>
     <ignored path="Szymanski_Kyle_WPF.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,20 +25,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="discounts.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="discounts.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Expressions_worksheet/js/discounts.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.95671" vertical-offset="117" max-vertical-offset="915">
-              <caret line="52" column="13" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="312" max-vertical-offset="1005">
+              <caret line="58" column="193" selection-start-line="58" selection-start-column="193" selection-end-line="58" selection-end-column="193" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="discount.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="discount.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Expressions_worksheet/discount.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="240">
+            <state vertical-scroll-proportion="0.11210762" vertical-offset="0" max-vertical-offset="669">
               <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
               <folding />
             </state>
@@ -334,18 +336,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Expressions_worksheet/discount.html">
+    <entry file="file://$PROJECT_DIR$/Expressions_worksheet/js/discounts.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="240">
-          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="312" max-vertical-offset="1005">
+          <caret line="58" column="193" selection-start-line="58" selection-start-column="193" selection-end-line="58" selection-end-column="193" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Expressions_worksheet/js/discounts.js">
+    <entry file="file://$PROJECT_DIR$/Expressions_worksheet/discount.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.95671" vertical-offset="117" max-vertical-offset="915">
-          <caret line="52" column="13" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.11210762" vertical-offset="0" max-vertical-offset="669">
+          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
           <folding />
         </state>
       </provider>
