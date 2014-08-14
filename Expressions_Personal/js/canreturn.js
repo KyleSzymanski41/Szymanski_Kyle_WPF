@@ -42,7 +42,8 @@ console.log(price);
 
 // Let the user know what we are doing.
 
-alert("Lets see how much you each received for returning cans.");
+alert("Lets see how much you each will receive for returning cans.");
+
 
 // Multiply the can value by the number of cans to get the value of all the cans.
 
@@ -65,4 +66,8 @@ console.log(totalValue);
 
 var moneySplit = totalValue / people;
 
-console.log()
+console.log(moneySplit);
+
+// Inform the user what each person shall get.
+
+console.log(" You and each of your friends shall receive $" + moneySplit + " back from returning cans.");
