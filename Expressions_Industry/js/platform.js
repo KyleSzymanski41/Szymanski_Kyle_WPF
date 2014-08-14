@@ -37,3 +37,8 @@ console.log(height);
 
 // Find the volume of the platform.
 
+var volume = parseInt(length) * parseInt(width) * parseInt(height);
+
+// console.log out information.
+
+console.log(volume);
