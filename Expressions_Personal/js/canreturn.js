@@ -16,13 +16,13 @@ var people = prompt("How many friends help you return cans?");
 
 console.log(people);
 
-// Ask user what the return value for each can is in cents.
+// Ask user what the return value for each can is in cents, use decimals.
 
-var value = prompt("What is the return value for each can worth in cents? Use decimals.");
+var worth = prompt("What is the return value for each can worth in cents? Use decimals.");
 
 //Console log out response.
 
-console.log(value);
+console.log(worth);
 
 // Ask user how many cans they returned.
 
@@ -42,4 +42,18 @@ console.log(price);
 
 // Let the user know what we are doing.
 
-alert("Lets see how much you each received for returning cans.")
+alert("Lets see how much you each received for returning cans.");
+
+// Multiply the can value by the number of cans to get the value of all the cans.
+
+var value = cans * worth;
+
+// console.log out response
+
+console.log(value);
+
+//Now subtract the value of the cans from the price to return them.
+
+var totalValue = value - price;
+
+//
