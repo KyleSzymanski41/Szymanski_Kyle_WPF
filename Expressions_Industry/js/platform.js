@@ -75,4 +75,7 @@ var surfaceArea = parseInt(lengthWidth) + parseInt(lengthHeight) + parseInt(widt
 
 console.log(surfaceArea);
 
-//
+// Inform the user of their print out.
+// Use console.log to do so.
+
+console.log(" The volume of your platform is " + volume + "feet^3. The surface area of your platform is " + surfaceArea + "feet^2.")
