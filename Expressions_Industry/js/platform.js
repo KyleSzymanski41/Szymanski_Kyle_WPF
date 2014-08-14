@@ -66,3 +66,13 @@ var widthHeight = 2 * (parseInt(width) * parseInt(height));
 // console.log out information.
 
 console.log(widthHeight);
+
+// Add LW + LH + WH
+
+var surfaceArea = parseInt(lengthWidth) + parseInt(lengthHeight) + parseInt(widthHeight);
+
+// console.log out information.
+
+console.log(surfaceArea);
+
+//
