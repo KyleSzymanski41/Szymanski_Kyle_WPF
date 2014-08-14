@@ -8,9 +8,7 @@
 // The user wants to know how he did at track day.
 // Calculate the average of his lap times using an array.
 // Determine his how fast he was going at that time. Use miles per hour.
-// Array
 
-var lapTimes = [lap1 , lap2 , lap3 ,lap4];
 
 // Ask the user their name.
 
@@ -48,4 +46,21 @@ var lap4 = prompt("What is your final lap time in seconds?");
 
 // console.log out response.
 
-console.log
+console.log(lap4);
+
+// Add lap times to array
+
+var lapTimes = [lap1 , lap2 , lap3 , lap4] ; //0,1,2,3
+
+console.log(lapTimes);
+
+// Add array together. //0,1,2,3
+
+var total = lapTimes[0] + lapTimes[1] + lapTimes[2] + lapTimes[3];
+
+console.log(total);
+
+var average = total / 4;
+
+console.log(average);
+
