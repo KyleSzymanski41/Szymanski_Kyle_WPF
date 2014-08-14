@@ -5,13 +5,15 @@ Dog years
 8-13-14
  */
 
-// Spraky the dog is x in human years.
+// Sparky the dog is x in human years.
+
+// For this example, Sparky is 4 in human years.
 
 // Find out how old Sparky the dog is in dog years.
 
-var humanYears = prompt("what is the age of sparky in human years?");
+var humanYears = 4;
 
-console.log(humanYears)
+alert(" Sparky is " + humanYears + " in human years ");
 
 // How old is sparky in human years?
 
@@ -19,15 +21,16 @@ console.log(humanYears)
 
 // Multiply 7 by the age of the human.
 
-var dogYears= humanYears * 7;
+var dogYears = humanYears * 7;
 
+alert(4 * 7);
 // console log out response
 
-console.log(dogYears);
+alert(" Sparky is " + dogYears + " in dog years ");
 
 // This is how old sparky is.
 
-// Print out output of sparkys age.
+// Print out output of Sparkys age.
 
 console.log(" Sparky is " + humanYears + " human years old which is " + dogYears + " in dog years ");
 
