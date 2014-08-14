@@ -53,7 +53,7 @@ var value = cans * worth;
 
 console.log(value);
 
-//Now subtract the value of the cans from the price to return them.
+//Now subtract the value of the cans from the cost to return them.
 
 var totalValue = value - parseInt(price);
 
