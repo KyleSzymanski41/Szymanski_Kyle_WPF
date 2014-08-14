@@ -29,7 +29,19 @@ console.log(totalSlices / people);
 
 console.log(slices);
 
-//Assuming everyone only eats whole slices
+//Assuming everyone only eats whole slices each person would get 3. So how may would Sparky get?
+
+var partSlice = .2
+
+console.log(partSlice)
+
+var result = partSlice * people;
+
+console.log(result);
+
+console.log(" Sparky got " + result + " amount of slices ");
+
+
 
 
 
