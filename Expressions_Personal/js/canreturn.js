@@ -1,8 +1,9 @@
 /*
  Kyle Szymanski
- 8-13-14
  Assignment: Expressions
+ 8-13-14
  WPF - WDD 144 Section 02
+
  */
 
 // The user and some friends return cans to a recycling center for extra money. How much money will each person receive?
