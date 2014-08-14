@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="JavaScriptLibraryMappings">
-    <file url="file://$PROJECT_DIR$/Expressions_worksheet/js/Slice of Pie part 1.js" libraries="{Node.js Globals, WebGL}" />
+    <file url="file://$PROJECT_DIR$/Expressions_worksheet/js/SliceofPie1.js" libraries="{Node.js Globals, WebGL}" />
   </component>
 </project>
 
