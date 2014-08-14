@@ -18,9 +18,9 @@ var name = prompt("what is your name?");
 
 alert("Hello " + name);
 
-// Ask the user for their lap times one at a time for an array.
+// Ask the user for their lap times one at a time in seconds for an array.
 
-var lap1 = prompt("What is lap time number 1?");
+var lap1 = prompt("What is lap time number 1 in seconds?");
 
 // console.log out response.
 
@@ -28,7 +28,7 @@ console.log(lap1);
 
 // Ask them for 2nd lap time
 
-var lap2 = prompt("What is your 2nd lap time?");
+var lap2 = prompt("What is your 2nd lap time in seconds?");
 
 // console.log out response.
 
@@ -36,7 +36,7 @@ console.log(lap2);
 
 // Ask them for their 3rd lap time.
 
-var lap3 = prompt("What is your 3rd lap time?");
+var lap3 = prompt("What is your 3rd lap time in seconds?");
 
 // console.log out response
 
@@ -44,6 +44,8 @@ console.log(lap3);
 
 // Ask them for their final lap time.
 
-var lap4 = prompt("What is your final lap time?");
+var lap4 = prompt("What is your final lap time in seconds?");
 
 // console.log out response.
+
+console.log
