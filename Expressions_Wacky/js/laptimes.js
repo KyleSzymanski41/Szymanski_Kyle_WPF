@@ -18,7 +18,9 @@ alert("Hello " + name);
 
 // Ask the user for their lap times one at a time in seconds for an array.
 
-var lap1 = prompt("What is lap time number 1 in seconds?");
+alert("List your time in seconds.")
+
+var lap1 = prompt("What is lap time number 1?");
 
 // console.log out response.
 
@@ -26,7 +28,7 @@ console.log(lap1);
 
 // Ask them for 2nd lap time
 
-var lap2 = prompt("What is your 2nd lap time in seconds?");
+var lap2 = prompt("What is your 2nd lap time?");
 
 // console.log out response.
 
@@ -34,7 +36,7 @@ console.log(lap2);
 
 // Ask them for their 3rd lap time.
 
-var lap3 = prompt("What is your 3rd lap time in seconds?");
+var lap3 = prompt("What is your 3rd lap time?");
 
 // console.log out response
 
@@ -42,25 +44,37 @@ console.log(lap3);
 
 // Ask them for their final lap time.
 
-var lap4 = prompt("What is your final lap time in seconds?");
+var lap4 = prompt("What is your 4th lap time?");
 
 // console.log out response.
 
 console.log(lap4);
 
-// Add lap times to array
+var lap5 = prompt("What is your final lap time?");
 
-var lapTimes = [lap1 , lap2 , lap3 , lap4] ; //0,1,2,3
+// console.log out response.
 
-console.log(lapTimes);
+console.log(lap5);
 
-// Add array together. //0,1,2,3
+//array
 
-var total = lapTimes[0] + lapTimes[1] + lapTimes[2] + lapTimes[3];
+var times = [lap1 , lap2 , lap3 , lap4 , lap5]; //0,1,2,3
 
-console.log(total);
+console.log(times);
 
-var average = total / 4;
+// add laps together
+
+var totalTime = parseInt(times[0]) + parseInt(times[1]) + parseInt(times[2]) + parseInt(times[3]) + parseInt(times[4]);
+
+// console.log out answer.
+
+console.log(totalTime);
+
+// Average out lap times by dividing by 5
+
+var average = totalTime / 5;
+
+// Console.log out answer.
 
 console.log(average);
 
