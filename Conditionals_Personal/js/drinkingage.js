@@ -27,4 +27,12 @@ console.log(drinkingAge);
 
 var age = prompt(" Please tell me your age.");
 
-// 
+// Validate prompt.
+
+if(age === ""){ // If age is blank re-prompt the user for their age!
+    age = prompt(" Please enter your age!");
+}
+// Otherwise continue
+
+
+
