@@ -37,7 +37,7 @@ console.log(houseHold);
 if(userCats < maxCats){
     //respond with you're not a crazy cat lady!
     console.log("You're not a crazy cat lady!")
-}else if(userCats < houseHold){
+}else if(userCats <= houseHold){
     // respond with you have a normal amount of cats.
     console.log("You have a normal amount of cats.")
 }else{
@@ -45,7 +45,7 @@ if(userCats < maxCats){
 console.log("You have to give away some cats, you crazy cat lady!");
 }
 
-// tell the user if the amount of cats they have compared to the max allowed.
+// tell the user if the amount of cats they have compared to the max allowed makes them a cat lady. include members of household.
 
 console.log(" You have " + userCats + " cats, and " + houseHold + " people living with you. If the amount of cats is higher than " + maxCats + " and you have more cats than people, you are a crazy cat lady!");
 
