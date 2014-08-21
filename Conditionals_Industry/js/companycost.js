@@ -91,4 +91,4 @@ if(totalCost < budget || govBonus){
     console.log("You are broke!");
 }
 
-
+console.log(" You know that having a big government bonus is " + govBonus + " so this will ensure that your " + totalCost + " dollars in total cost will fit with your " + budget + " dollar budget.");
