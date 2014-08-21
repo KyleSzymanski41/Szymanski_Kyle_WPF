@@ -17,7 +17,7 @@ alert(" Hello " + name + " nice to meet you!");
 
 // Find out if the user is able to join his friends for a alcoholic beverage
 
-var drinkingAge = 21;
+var drinkingAge = prompt(" What is the legal drinking age in your area?");
 
 // console.log out drinking age
 
@@ -39,17 +39,15 @@ if(age === ""){ // If age is blank re-prompt the user for their age!
 
 // Figure out if the users age allows them to have a drink with friends.
 
-if(age >= drinkingAge){
+/*if(age >= drinkingAge){
     // You can have a drink!
     console.log(" You can have a drink!");
 }else{
     // Sorry, you can not have a drink!
     console.log(" Sorry, you can not have a drink!");
-}
-
+} */
 
 // Inform user about their age compared to drinking.
 
-console.log(" Hello " + name + " the legal drinking age is " + drinkingAge + " and your age is " + age + " therefore determine if you can have a alcoholic beverage!");
-
+(age >= drinkingAge) ? console.log("You can have a drink!") : console.log("Sorry,you can not have a drink!");
 
