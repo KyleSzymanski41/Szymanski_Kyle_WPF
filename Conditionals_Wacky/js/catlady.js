@@ -45,6 +45,8 @@ if(userCats < maxCats){
 console.log("You have to give away some cats, you crazy cat lady!");
 }
 
+// tell the user if the amount of cats they have compared to the max allowed.
 
+console.log(" You have " + userCats + " cats, and " + houseHold + " people living with you. If the amount of cats is higher than " + maxCats + " and you have more cats than people, you are a crazy cat lady!");
 
 
