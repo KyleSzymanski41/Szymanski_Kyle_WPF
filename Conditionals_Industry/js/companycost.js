@@ -6,7 +6,7 @@
  */
 
 // The user is the president of a development company. The company runs on a specific budget of 5,000 a week.
-// The user needs to find out if his total cost is less than, greater than, or equal to his budget before his government loan kicks in.
+// The user needs to find out if his total cost is less than, greater than, or equal to his budget before his big government loan of kicks in.
 // The users fixed cost is based on his electric bill, rent, and insurance costs.
 
 // Ask the user how much his fixed costs are in dollars.
@@ -34,3 +34,19 @@ if(rent === ""){ // If the user does not enter a value, prompt again.
 // Otherwise validate response.
 
 console.log(rent);
+
+// Ask the user for their insurance cost.
+
+var insurance = prompt("How much do you pay in insurance?");
+
+// console.log out response
+
+console.log(insurance);
+
+// To figure out their total fixed cost add the 3 together.
+
+var fixedCost = parseInt(electric) + parseInt(rent) + parseInt(insurance);
+
+// console.log out answer.
+
+console.log(parseInt(fixedCost));
