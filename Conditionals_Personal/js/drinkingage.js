@@ -32,6 +32,9 @@ var age = prompt(" Please tell me your age.");
 if(age === ""){ // If age is blank re-prompt the user for their age!
     age = prompt(" Please enter your age!");
 }
+
+// The continue on
+
 // Otherwise continue
 
 // Figure out if the users age allows them to have a drink with friends.
