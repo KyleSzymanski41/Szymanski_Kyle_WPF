@@ -21,7 +21,7 @@ if(electric === ""){// If the user does not enter a value, prompt again.
 
 // Otherwise validate prompt.
 
-console.log(electric);
+console.log(parseInt(electric));
 
 // Ask the user for their rent they have to pay.
 
@@ -33,7 +33,7 @@ if(rent === ""){ // If the user does not enter a value, prompt again.
 
 // Otherwise validate response.
 
-console.log(rent);
+console.log(parseInt(rent));
 
 // Ask the user for their insurance cost.
 
@@ -41,7 +41,7 @@ var insurance = prompt("How much do you pay in insurance?");
 
 // console.log out response
 
-console.log(insurance);
+console.log(parseInt(insurance));
 
 // To figure out their total fixed cost add the 3 together.
 
@@ -58,7 +58,7 @@ var employees = prompt("How many people do you currently employee?");
 
 // console.log out response.
 
-console.log(employees);
+console.log(parseInt(employees));
 
 // Ask the user for the employees average wage per week.
 
@@ -66,15 +66,15 @@ var wage = prompt("What is the average wage per employee per week?");
 
 // console.log out response.
 
-console.log(wage);
+console.log(parseInt(wage));
 
 // To find total cost, multiply wage, employees, and fixed cost together.
 
-var totalCost = fixedCost + (employees * wage);
+var totalCost = parseInt(fixedCost) + (parseInt(employees) * parseInt(wage));
 
 // console.log out answer.
 
-console.log(totalCost);
+console.log(parseInt(totalCost));
 
 // The company has a big bonus from the government. This is a true statement.
 
@@ -83,5 +83,12 @@ var govBonus = true;
 // The company is based on a 5,000 dollar a week budget.
 
 var budget = 5000;
+
+// If the companies total cost is less than our budget and the government bonus is true, The user has enough money for the week.
+if(totalCost < budget || govBonus){
+    console.log("You have enough money for this week!");
+}else{
+    console.log("You are broke!");
+}
 
 
