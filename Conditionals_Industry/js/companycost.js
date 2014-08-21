@@ -23,4 +23,14 @@ if(electric === ""){// If the user does not enter a value, prompt again.
 
 console.log(electric);
 
+// Ask the user for their rent they have to pay.
 
+var rent = prompt("How much is your rent for the building?");
+
+if(rent === ""){ // If the user does not enter a value, prompt again.
+    rent = prompt("How much is your rent for the building?");
+}
+
+// Otherwise validate response.
+
+console.log(rent);
