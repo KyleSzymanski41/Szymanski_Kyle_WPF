@@ -60,3 +60,12 @@ var employees = prompt("How many people do you currently employee?");
 
 console.log(employees);
 
+// Ask the user for the employees average wage per week.
+
+var wage = prompt("What is the average wage per employee per week?");
+
+// console.log out response.
+
+console.log(wage);
+
+
