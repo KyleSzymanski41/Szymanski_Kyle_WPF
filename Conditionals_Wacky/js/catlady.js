@@ -3,9 +3,15 @@
  Assignment- Conditionals
  8-20-14
  WPF - Section 02 - WDD 144
- */
+*/
+
+
+// The user is wondering if they are considered a " Crazy Cat Lady " for owning so many cats.
+//Figure out if the user has more cats than the max amount of cats that are allowed in a home in order to not be crazy.
+// The max amount of cats in a home is 3 cats.
 
 var maxCats = 3;
+
 
 // Ask the owner how many cats they have.
 
@@ -26,17 +32,19 @@ var houseHold = prompt("How many people are in your home?");
 
 console.log(houseHold);
 
-// If the user has more cats than the max amount of cats respond with you're a crazy cat lady!
+// If the user has less cats than the max amount of cats respond with you're not a crazy cat lady!
 
 if(userCats < maxCats){
-    //respond with you're a crazy cat lady!
+    //respond with you're not a crazy cat lady!
     console.log("You're not a crazy cat lady!")
 }else if(userCats < houseHold){
     // respond with you have a normal amount of cats.
     console.log("You have a normal amount of cats.")
 }else{
-    // respond that they need to lose cats.
+    // respond that they need to give away some cats, you crazy cat lady!.
 console.log("You have to give away some cats, you crazy cat lady!");
 }
+
+
 
 
