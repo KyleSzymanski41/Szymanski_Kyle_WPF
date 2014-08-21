@@ -50,3 +50,13 @@ var fixedCost = parseInt(electric) + parseInt(rent) + parseInt(insurance);
 // console.log out answer.
 
 console.log(parseInt(fixedCost));
+
+// In order to find his total cost we need to find out how many employees the user has and what their average wage is.
+// Ask the user how many employees are on his staff.
+
+var employees = prompt("How many people do you currently employee?");
+
+// console.log out response.
+
+console.log(employees);
+
