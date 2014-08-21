@@ -26,4 +26,17 @@ var houseHold = prompt("How many people are in your home?");
 
 console.log(houseHold);
 
+// If the user has more cats than the max amount of cats respond with you're a crazy cat lady!
+
+if(userCats < maxCats){
+    //respond with you're a crazy cat lady!
+    console.log("You're not a crazy cat lady!")
+}else if(userCats < houseHold){
+    // respond with you have a normal amount of cats.
+    console.log("You have a normal amount of cats.")
+}else{
+    // respond that they need to lose cats.
+console.log("You have to give away some cats, you crazy cat lady!");
+}
+
 
