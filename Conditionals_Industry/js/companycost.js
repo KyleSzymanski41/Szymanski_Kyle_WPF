@@ -68,4 +68,20 @@ var wage = prompt("What is the average wage per employee per week?");
 
 console.log(wage);
 
+// To find total cost, multiply wage, employees, and fixed cost together.
+
+var totalCost = fixedCost + (employees * wage);
+
+// console.log out answer.
+
+console.log(totalCost);
+
+// The company has a big bonus from the government. This is a true statement.
+
+var govBonus = true;
+
+// The company is based on a 5,000 dollar a week budget.
+
+var budget = 5000;
+
 
