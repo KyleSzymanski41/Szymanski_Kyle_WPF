@@ -34,5 +34,13 @@ if(age === ""){ // If age is blank re-prompt the user for their age!
 }
 // Otherwise continue
 
+// Figure out if the users age allows them to have a drink.
 
+if(age >= drinkingAge){
+    // You can have a drink!
+    console.log(" You can have a drink!");
+}else{
+    // Sorry, you can not have a drink!
+    console.log(" Sorry, you can not have a drink!");
+}
 
