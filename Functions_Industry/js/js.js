@@ -17,6 +17,14 @@ var booksperBundle = prompt("How many books are bundled per wrap?");
 
 console.log(booksperBundle);
 
+// Ask user how many layers are on a pallet.
+
+var layers = prompt("How many layers are on each pallet?");
+
+// console.log out response.
+
+console.log(layers);
+
 // Ask the user how many pallets they have shipped.
 
 var shipPallets = prompt("How many pallets have shipped?");
@@ -25,5 +33,19 @@ var shipPallets = prompt("How many pallets have shipped?");
 
 console.log(shipPallets);
 
-//
+// Ask user how many books were ordered?
 
+var booksOrdered = prompt("How many books were ordered?");
+
+// console.log out response.
+
+console.log(booksOrdered);
+
+// Create a function to indicate how many total books there.
+
+function totalBooks(booksperBundle, layers, shipPallets){
+
+    var books = booksperBundle * layers * shipPallets;
+
+    return books;
+}
