@@ -20,11 +20,11 @@ var beeStings = 8.666666667;
 
 // Calculate how many stings it would take to kill the victim.
 
-var numberofStings = calculateNumberofstings(weight, beeStings);
+var numberofStings = calculateNumberofstings(weight);
 
 // create a function to see how many bee stings it will take to kill an animal.
 
-function calculateNumberofstings(weight, beeStings){
+function calculateNumberofstings(weight){
 
     var stings = weight * beeStings;
 
