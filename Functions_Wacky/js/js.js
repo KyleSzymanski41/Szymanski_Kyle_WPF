@@ -36,5 +36,6 @@ console.log(golfer);
 
 if(strokes > par){
 
+    console.log(" You shot a plus " + golfer + " on a par " + par + " hole, so I guess you need to practice to be up to par!");
 
 }
