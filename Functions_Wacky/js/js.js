@@ -32,17 +32,24 @@ var golfing = function(strokes, par){
 
 var golfer = golfing(strokes, par);
 
+// console.log out answer from function.
+
 console.log(golfer);
 
+// ask an else if statement to show the user their result.
+
 if(strokes > par){
+    // console.log out You shot a plus " + golfer + " on a par " + par + " hole, so I guess you need to practice to be up to par!
 
     console.log(" You shot a plus " + golfer + " on a par " + par + " hole, so I guess you need to practice to be up to par!");
 
 }else if(strokes === par){
+    // console.log out You shot a even " + golfer + " on a par " + par + " hole, so that is normal.
 
     console.log(" You shot a even " + golfer + " on a par " + par + " hole, so that is normal.");
 
 }else{
+    // console.log out You shot a " + golfer + " on a par " + par + " hole, that is amazing!
 
     console.log(" You shot a " + golfer + " on a par " + par + " hole, that is amazing!");
 }
