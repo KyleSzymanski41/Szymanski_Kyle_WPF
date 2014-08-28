@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="450b5639-6bde-429e-8f10-f723a205f45d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Functions_Industry/index.html" afterPath="$PROJECT_DIR$/Functions_Industry/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Functions_Industry/js/js.js" afterPath="$PROJECT_DIR$/Functions_Industry/js/js.js" />
     </list>
     <ignored path="Szymanski_Kyle_WPF.iws" />
@@ -29,7 +28,7 @@
       <file leaf-file-name="companycost.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Conditionals_Industry/js/companycost.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="820" max-vertical-offset="1500">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1500">
               <caret line="93" column="198" selection-start-line="93" selection-start-column="198" selection-end-line="93" selection-end-column="198" />
               <folding />
             </state>
@@ -39,9 +38,11 @@
       <file leaf-file-name="js.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Functions_Industry/js/js.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.08658009" vertical-offset="0" max-vertical-offset="693">
-              <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
-              <folding />
+            <state vertical-scroll-proportion="0.23809524" vertical-offset="0" max-vertical-offset="693">
+              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -661,9 +662,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Functions_Industry/js/js.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.08658009" vertical-offset="0" max-vertical-offset="693">
-          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
-          <folding />
+        <state vertical-scroll-proportion="0.23809524" vertical-offset="0" max-vertical-offset="693">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
