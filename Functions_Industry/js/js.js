@@ -1,3 +1,6 @@
 /**
- * Created by kyleszymanski on 8/28/14.
+ * Kyle Szymanski
+ * 8/28/14.
+ * WPF-WDD 144
+ * Assignment - Functions
  */
