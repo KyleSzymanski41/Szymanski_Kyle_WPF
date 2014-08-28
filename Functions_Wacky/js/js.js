@@ -38,4 +38,7 @@ if(strokes > par){
 
     console.log(" You shot a plus " + golfer + " on a par " + par + " hole, so I guess you need to practice to be up to par!");
 
+}else if(strokes === par){
+
+    console.log(" You shot a even " + golfer + " on a par " + par + " hole, so that is normal.");
 }
