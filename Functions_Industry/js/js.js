@@ -51,10 +51,10 @@ function totalBooks(booksperBundle, layers, shipPallets){
 
 }
 // Create a variable to check total books
-var books = totalBooks(booksperBundle, layers, shipPallets);
+var books = totalBooks(parseInt(booksperBundle), parseInt(layers), parseInt(shipPallets));
 
 // console.log out books.
-console.log(books);
+console.log(parseInt(books));
 
 // We know that they have extra books in storage in case they run short.
 
