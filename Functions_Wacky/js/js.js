@@ -33,3 +33,8 @@ var golfing = function(strokes, par){
 var golfer = golfing(strokes, par);
 
 console.log(golfer);
+
+if(strokes > par){
+
+
+}
