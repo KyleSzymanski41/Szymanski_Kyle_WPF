@@ -42,17 +42,19 @@ console.log(parseInt(cashOrcredit));
 
 // Create a function to calculate the person cost.
 
-function moneyNeeded(skytotal, videoPrice, people){
+function moneyNeeded(skyTotal, videoPrice, people){
     // create variable money needed by adding sky total and video total then divide by the amount of people.
-    var moneyNeeded = skytotal + videoPrice / people;
-    // Return total.
+
+    var moneyNeeded = (skyTotal + videoPrice) / people;
+
     return moneyNeeded;
+
+
 }
 
-// create a var. perPerson.
-
-var perPerson = moneyNeeded(skyTotal, videoPrice ,people);
-
-// console.log out information.
+var perPerson = moneyNeeded(parseInt(skyTotal), parseInt(videoPrice), people);
 
 console.log(parseInt(perPerson));
+
+
+
