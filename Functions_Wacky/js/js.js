@@ -20,3 +20,16 @@ var strokes = prompt("How many stokes did you take?");
 // console.log out response.
 
 console.log(strokes);
+
+// declare an anonymous function for golfing.
+
+var golfing = function(strokes, par){
+
+    var overUnder = strokes - par;
+
+    return overUnder;
+};
+
+var golfer = golfing(strokes, par);
+
+console.log(golfer);
