@@ -52,9 +52,23 @@ function moneyNeeded(skyTotal, videoPrice, people){
 
 }
 
+// create a variable for per person
+
 var perPerson = moneyNeeded(parseInt(skyTotal), parseInt(videoPrice), people);
+
+// console.log out information.
 
 console.log(parseInt(perPerson));
 
+// create a ternary to inform the user of their results.
+// start out with a variable called cash Needed.
+
+var cashNeeded;
+
+cashNeeded = (cashOrcredit < perPerson) ? "You and your friends will need a little more money to go skydiving.." : " You and your friends are in for a great skydiving adventure!";
+
+// console.log out cashNeeded to give the user their results!
+
+console.log(cashNeeded);
 
 
