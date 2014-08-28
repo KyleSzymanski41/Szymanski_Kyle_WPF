@@ -31,3 +31,28 @@ var videoPrice = prompt("How much is the total video cost for the group?");
 // console.log out response.
 
 console.log(parseInt(videoPrice));
+
+// Ask the user how much money each person plans on bringing with them.(Assuming everyone brings the same amount)
+
+var cashOrcredit = prompt("How much money does each person plan on bringing?");
+
+// console.log out response
+
+console.log(parseInt(cashOrcredit));
+
+// Create a function to calculate the person cost.
+
+function moneyNeeded(skytotal, videoPrice, people){
+    // create variable money needed by adding sky total and video total then divide by the amount of people.
+    var moneyNeeded = skytotal + videoPrice / people;
+    // Return total.
+    return moneyNeeded;
+}
+
+// create a var. perPerson.
+
+var perPerson = moneyNeeded(skyTotal, videoPrice ,people);
+
+// console.log out information.
+
+console.log(parseInt(perPerson));
