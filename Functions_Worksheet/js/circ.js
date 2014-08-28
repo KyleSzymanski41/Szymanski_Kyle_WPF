@@ -14,6 +14,8 @@ var r = prompt(" What is the radius of the circle?");
 
 console.log(parseInt(r));
 
+// To find the diameter multiply 2 by the radius
+
 var d = 2 * parseInt(r);
 
 console.log(parseInt(d));
@@ -32,6 +34,8 @@ function calculateCircumference(d, p){
 }
 
 console.log(circumference);
+
+console.log(" The circumference of the circle is " + circumference + ".");
 
 
 
