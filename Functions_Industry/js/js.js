@@ -45,15 +45,28 @@ console.log(booksOrdered);
 
 function totalBooks(booksperBundle, layers, shipPallets){
 
-    var books = booksperBundle * layers * shipPallets;
+    var totalBooks = booksperBundle * layers * shipPallets;
 
-    return books;
+    return totalBooks;
 
 }
 // Create a variable to check total books
- var books = totalBooks(booksperBundle, layers, shipPallets);
+var books = totalBooks(booksperBundle, layers, shipPallets);
 
 // console.log out books.
 console.log(books);
 
+// We know that they have extra books in storage in case they run short.
+
+var extraBooks = true;
+
+// create and if and else statement to provide results.
+
+if(books < booksOrdered || extraBooks ){
+    // console.log out " We will have enough books for this order."
+    console.log("You will have enough books to ship.");
+}else{
+    //console.log out "You may be in trouble."
+    console.log("you may be in trouble.");
+}
 
