@@ -48,4 +48,12 @@ function totalBooks(booksperBundle, layers, shipPallets){
     var books = booksperBundle * layers * shipPallets;
 
     return books;
+
 }
+// Create a variable to check total books
+ var books = totalBooks(booksperBundle, layers, shipPallets);
+
+// console.log out books.
+console.log(books);
+
+
