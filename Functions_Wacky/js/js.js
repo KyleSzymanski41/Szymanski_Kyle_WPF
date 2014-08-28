@@ -13,3 +13,10 @@ var par = prompt("What is par for the hole?");
 
 console.log(par);
 
+// ask the user for the amount of stroke they had.
+
+var strokes = prompt("How many stokes did you take?");
+
+// console.log out response.
+
+console.log(strokes);
